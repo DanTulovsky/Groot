@@ -2,7 +2,7 @@
 #define SIDEPANEL_MONITOR_H
 
 #include <QFrame>
-#include <zmq.hpp>
+#include "/usr/local/include/zmq.hpp"
 
 #include "bt_editor_base.h"
 

@@ -68,7 +68,7 @@
         "caption_color":  "#ffaacc"
     },
 
-    "ReactiveSequence": {
+    "RandomSequence": {
         "icon": ":/icons/svg/sequence_reactive.svg",
         "caption_color":  "#ff77aa"
     },

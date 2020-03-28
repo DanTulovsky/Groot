@@ -23,9 +23,9 @@
                     </ForceSuccess>
                 </ForceFailure>
             </Inverter>
-            <ReactiveSequence>
+            <RandomSequence>
                 <Action ID="Pippo"/>
-            </ReactiveSequence>
+            </RandomSequence>
         </Sequence>
     </BehaviorTree>
     <!-- ////////// -->
