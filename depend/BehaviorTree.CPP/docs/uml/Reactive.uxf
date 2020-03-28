@@ -121,7 +121,7 @@ Placed</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Fallback</panel_attributes>
+    <panel_attributes>Selector</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -243,7 +243,7 @@ Picked</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Fallback</panel_attributes>
+    <panel_attributes>Selector</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

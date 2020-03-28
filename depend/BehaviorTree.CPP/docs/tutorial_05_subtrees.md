@@ -13,7 +13,7 @@ into the other.
 This example is inspired by a popular 
 [article about behavior trees](http://www.gamasutra.com/blogs/ChrisSimpson/20140717/221339/Behavior_trees_for_AI_How_they_work.php).
 
-It is also the first practical example that uses `Decorators` and `Fallback`.
+It is also the first practical example that uses `Decorators` and `Selector`.
 
 ```XML hl_lines="1 3 15"
 <root main_tree_to_execute = "MainTree">
@@ -31,14 +31,14 @@ It is also the first practical example that uses `Decorators` and `Fallback`.
     </BehaviorTree>
     
     <BehaviorTree ID="MainTree">
-        <Fallback name="root_Fallback">
+        <Selector name="root_Selector">
             <Sequence name="door_open_sequence">
                 <IsDoorOpen/>
                 <PassThroughDoor/>
             </Sequence>
             <SubTree ID="DoorClosed"/>
             <PassThroughWindow/>
-        </Fallback>
+        </Selector>
     </BehaviorTree>
     
 </root>

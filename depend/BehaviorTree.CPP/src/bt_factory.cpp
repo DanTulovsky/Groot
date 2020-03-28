@@ -18,9 +18,10 @@ namespace BT
 {
 BehaviorTreeFactory::BehaviorTreeFactory()
 {
-    registerNodeType<FallbackNode>("Fallback");
+    registerNodeType<SelectorNode>("Selector");
     registerNodeType<SequenceNode>("Sequence");
     registerNodeType<PersistentSequenceNode>("PersistentSequence");
+    registerNodeType<PersistentRandomSelectorNode>("PersistentRandomSelector");
     registerNodeType<ActiveSequenceNode>("ActiveSequence");
     registerNodeType<ParallelNode>("Parallel");
     registerNodeType<RandomSequenceNode>("RandomSequence");

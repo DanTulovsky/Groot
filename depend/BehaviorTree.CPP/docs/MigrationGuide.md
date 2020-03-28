@@ -260,7 +260,7 @@ applies to user interface and software design. A typical formulation of the prin
 to redesign the feature.
 
 In my opinion, the two main building blocks of BehaviorTree.CPP, the `SequenceNode` 
-and the `FallbackNode` have a very high astonishment factor, because they are
+and the `SelectorNode` have a very high astonishment factor, because they are
 __"reactive"__.
 
 By "reactive" we mean that:
@@ -291,8 +291,8 @@ I renamed the ControlNodes as follows to reflect this reality:
 | Sequence | RandomSequence  | YES  |
 | PersistentSequence (reset_on_failure=true)  |  Sequence |  NO |
 | PersistentSequence (reset_on_failure=false) |  PersistentSequence |  NO |
-| Fallback | RandomSelector  | YES  |
-| FallbackStar  |  Fallback |  NO |
+| Selector | RandomSelector  | YES  |
+| SelectorStar  |  Selector |  NO |
 | Parallel |  Parallel |  Yes(v2) / No(v3) |
 
 

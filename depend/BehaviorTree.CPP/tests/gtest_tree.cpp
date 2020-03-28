@@ -25,7 +25,7 @@ struct BehaviorTreeTest : testing::Test
     BT::ConditionTestNode condition_1;
     BT::ConditionTestNode condition_2;
 
-    BT::FallbackNode fal_conditions;
+    BT::SelectorNode fal_conditions;
 
     BehaviorTreeTest()
       : root("root_sequence")

@@ -66,13 +66,13 @@
         </xs:sequence>
         <xs:attribute name="name" type="xs:string" use="optional" />
     </xs:complexType>
-    <xs:complexType name="FallbackType">
+    <xs:complexType name="SelectorType">
         <xs:sequence>
             <xs:group minOccurs="1" maxOccurs="unbounded" ref="BuiltInMultipleTypes" />
         </xs:sequence>
         <xs:attribute name="name" type="xs:string" use="optional" />
     </xs:complexType>
-    <xs:complexType name="FallbackStarType">
+    <xs:complexType name="SelectorStarType">
         <xs:sequence>
             <xs:group minOccurs="1" maxOccurs="unbounded" ref="BuiltInMultipleTypes" />
         </xs:sequence>
@@ -127,8 +127,8 @@
 			<xs:element name="Subtree" type="SubtreeType" />
             <xs:element name="Sequence" type="SequenceType" />
             <xs:element name="PersistentSequence" type="PersistentSequenceType" />
-            <xs:element name="Fallback" type="FallbackType" />
-            <xs:element name="FallbackStar" type="FallbackStarType" />
+            <xs:element name="Selector" type="SelectorType" />
+            <xs:element name="SelectorStar" type="SelectorStarType" />
             <xs:element name="Parallel" type="ParallelType" />
             <xs:element name="Inverter" type="InverterType" />
             <xs:element name="RetryUntilSuccesful" type="RetryType" />

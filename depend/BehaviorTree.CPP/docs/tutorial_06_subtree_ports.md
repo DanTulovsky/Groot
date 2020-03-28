@@ -30,7 +30,7 @@ Let's consider this Beahavior Tree.
     </BehaviorTree>
 
     <BehaviorTree ID="MoveRobot">
-        <Fallback name="move_robot_main">
+        <Selector name="move_robot_main">
             <PersistentSequence>
                 <MoveBase       goal="{target}"/>
                 <SetBlackboard output_key="output" value="mission accomplished" />
@@ -38,7 +38,7 @@ Let's consider this Beahavior Tree.
             <ForceFailure>
                 <SetBlackboard output_key="output" value="mission failed" />
             </ForceFailure>
-        </Fallback>
+        </Selector>
     </BehaviorTree>
 
 </root>

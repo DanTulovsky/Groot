@@ -131,9 +131,9 @@ But...
     We will see later how we can improve this tree. 
     
 
-### Second ControlNode: Fallback
+### Second ControlNode: Selector
 
-[FallbackNodes](FallbackNode.md), known also as __"Selectors"__,
+[SelectorNodes](SelectorNode.md), known also as __"Selectors"__,
 are nodes that can express, as the name suggests, fallback strategies, 
 i.e. what to do next if a child returns FAILURE.
 
@@ -141,12 +141,12 @@ It ticks the children in order and:
 
 - If a child returns FAILURE, tick the next one.
 - If a child returns SUCCESS, then no more children are ticked and the 
-   Fallback returns SUCCESS.
-- If all the children return FAILURE, then the Fallback returns FAILURE too.
+   Selector returns SUCCESS.
+- If all the children return FAILURE, then the Selector returns FAILURE too.
 
-In the next example, you can see how Sequences and Fallbacks can be combined:
+In the next example, you can see how Sequences and Selectors can be combined:
     
-![FallbackNodes](images/FallbackBasic.png)  
+![SelectorNodes](images/SelectorBasic.png)  
 
 
 > Is the door open?

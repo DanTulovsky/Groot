@@ -35,7 +35,7 @@ nav:
        - Introduction to BT: BT_basics.md
        - Getting started:    getting_started.md
        - Sequence Nodes:     SequenceNode.md
-       - Fallback Nodes:     FallbackNode.md
+       - Selector Nodes:     SelectorNode.md
        - Decorators Nodes:   DecoratorNode.md
        - The XML format:     xml_format.md
        

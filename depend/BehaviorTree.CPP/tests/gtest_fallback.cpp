@@ -18,13 +18,13 @@
 using BT::NodeStatus;
 using std::chrono::milliseconds;
 
-struct SimpleFallbackTest : testing::Test
+struct SimpleSelectorTest : testing::Test
 {
-    BT::FallbackNode root;
+    BT::SelectorNode root;
     BT::ConditionTestNode condition;
     BT::AsyncActionTest action;
 
-    SimpleFallbackTest() :
+    SimpleSelectorTest() :
       root("root_fallback")
       , condition("condition")
       , action("action", milliseconds(100) )
@@ -32,7 +32,7 @@ struct SimpleFallbackTest : testing::Test
         root.addChild(&condition);
         root.addChild(&action);
     }
-    ~SimpleFallbackTest()
+    ~SimpleSelectorTest()
     {
         haltAllActions(&root);
     }
@@ -61,13 +61,13 @@ struct RandomSelectorTest : testing::Test
     }
 };
 
-struct SimpleFallbackWithMemoryTest : testing::Test
+struct SimpleSelectorWithMemoryTest : testing::Test
 {
-    BT::FallbackNode root;
+    BT::SelectorNode root;
     BT::AsyncActionTest action;
     BT::ConditionTestNode condition;
 
-    SimpleFallbackWithMemoryTest() :
+    SimpleSelectorWithMemoryTest() :
       root("root_sequence")
       , action("action", milliseconds(100) )
       , condition("condition")
@@ -75,15 +75,15 @@ struct SimpleFallbackWithMemoryTest : testing::Test
         root.addChild(&condition);
         root.addChild(&action);
     }
-    ~SimpleFallbackWithMemoryTest()
+    ~SimpleSelectorWithMemoryTest()
     {
         haltAllActions(&root);
     }
 };
 
-struct ComplexFallbackWithMemoryTest : testing::Test
+struct ComplexSelectorWithMemoryTest : testing::Test
 {
-    BT::FallbackNode root;
+    BT::SelectorNode root;
 
     BT::AsyncActionTest action_1;
     BT::AsyncActionTest action_2;
@@ -91,10 +91,10 @@ struct ComplexFallbackWithMemoryTest : testing::Test
     BT::ConditionTestNode condition_1;
     BT::ConditionTestNode condition_2;
 
-    BT::FallbackNode fal_conditions;
-    BT::FallbackNode fal_actions;
+    BT::SelectorNode fal_conditions;
+    BT::SelectorNode fal_actions;
 
-    ComplexFallbackWithMemoryTest()
+    ComplexSelectorWithMemoryTest()
       : root("root_fallback")
       , action_1("action_1", milliseconds(100) )
       , action_2("action_2", milliseconds(100) )
@@ -114,7 +114,7 @@ struct ComplexFallbackWithMemoryTest : testing::Test
             fal_actions.addChild(&action_2);
         }
     }
-    ~ComplexFallbackWithMemoryTest()
+    ~ComplexSelectorWithMemoryTest()
     {
         haltAllActions(&root);
     }
@@ -122,7 +122,7 @@ struct ComplexFallbackWithMemoryTest : testing::Test
 
 /****************TESTS START HERE***************************/
 
-TEST_F(SimpleFallbackTest, ConditionTrue)
+TEST_F(SimpleSelectorTest, ConditionTrue)
 {
     // Ticking the root node
     condition.setBoolean(true);
@@ -133,7 +133,7 @@ TEST_F(SimpleFallbackTest, ConditionTrue)
     ASSERT_EQ(NodeStatus::IDLE, action.status());
 }
 
-TEST_F(SimpleFallbackTest, ConditionChangeWhileRunning)
+TEST_F(SimpleSelectorTest, ConditionChangeWhileRunning)
 {
     BT::NodeStatus state = BT::NodeStatus::IDLE;
 
@@ -196,7 +196,7 @@ TEST_F(RandomSelectorTest, Condition2ToTrue)
     ASSERT_EQ(NodeStatus::IDLE, action_1.status());
 }
 
-TEST_F(SimpleFallbackWithMemoryTest, ConditionFalse)
+TEST_F(SimpleSelectorWithMemoryTest, ConditionFalse)
 {
     condition.setBoolean(false);
     BT::NodeStatus state = root.executeTick();
@@ -206,7 +206,7 @@ TEST_F(SimpleFallbackWithMemoryTest, ConditionFalse)
     ASSERT_EQ(NodeStatus::RUNNING, action.status());
 }
 
-TEST_F(SimpleFallbackWithMemoryTest, ConditionTurnToTrue)
+TEST_F(SimpleSelectorWithMemoryTest, ConditionTurnToTrue)
 {
     condition.setBoolean(false);
     BT::NodeStatus state = root.executeTick();
@@ -223,7 +223,7 @@ TEST_F(SimpleFallbackWithMemoryTest, ConditionTurnToTrue)
     ASSERT_EQ(NodeStatus::RUNNING, action.status());
 }
 
-TEST_F(ComplexFallbackWithMemoryTest, ConditionsTrue)
+TEST_F(ComplexSelectorWithMemoryTest, ConditionsTrue)
 {
     BT::NodeStatus state = root.executeTick();
 
@@ -236,7 +236,7 @@ TEST_F(ComplexFallbackWithMemoryTest, ConditionsTrue)
     ASSERT_EQ(NodeStatus::IDLE, action_2.status());
 }
 
-TEST_F(ComplexFallbackWithMemoryTest, Condition1False)
+TEST_F(ComplexSelectorWithMemoryTest, Condition1False)
 {
     condition_1.setBoolean(false);
     BT::NodeStatus state = root.executeTick();
@@ -250,7 +250,7 @@ TEST_F(ComplexFallbackWithMemoryTest, Condition1False)
     ASSERT_EQ(NodeStatus::IDLE, action_2.status());
 }
 
-TEST_F(ComplexFallbackWithMemoryTest, ConditionsFalse)
+TEST_F(ComplexSelectorWithMemoryTest, ConditionsFalse)
 {
     condition_1.setBoolean(false);
     condition_2.setBoolean(false);
@@ -265,7 +265,7 @@ TEST_F(ComplexFallbackWithMemoryTest, ConditionsFalse)
     ASSERT_EQ(NodeStatus::IDLE, action_2.status());
 }
 
-TEST_F(ComplexFallbackWithMemoryTest, Conditions1ToTrue)
+TEST_F(ComplexSelectorWithMemoryTest, Conditions1ToTrue)
 {
     condition_1.setBoolean(false);
     condition_2.setBoolean(false);
@@ -283,7 +283,7 @@ TEST_F(ComplexFallbackWithMemoryTest, Conditions1ToTrue)
     ASSERT_EQ(NodeStatus::IDLE, action_2.status());
 }
 
-TEST_F(ComplexFallbackWithMemoryTest, Conditions2ToTrue)
+TEST_F(ComplexSelectorWithMemoryTest, Conditions2ToTrue)
 {
     condition_1.setBoolean(false);
     condition_2.setBoolean(false);
@@ -301,7 +301,7 @@ TEST_F(ComplexFallbackWithMemoryTest, Conditions2ToTrue)
     ASSERT_EQ(NodeStatus::IDLE, action_2.status());
 }
 
-TEST_F(ComplexFallbackWithMemoryTest, Action1Failed)
+TEST_F(ComplexSelectorWithMemoryTest, Action1Failed)
 {
     action_1.setBoolean(false);
     action_2.setBoolean(true);

@@ -14,7 +14,7 @@ static const char* xml_text = R"(
 <root main_tree_to_execute = "MainTree" >
 
     <BehaviorTree ID="MainTree">
-        <Fallback name="root_selector">
+        <Selector name="root_selector">
 
             <Sequence name="door_open_sequence">
                 <Action ID="IsDoorOpen" />
@@ -32,7 +32,7 @@ static const char* xml_text = R"(
 
             <Action ID="PassThroughWindow" />
 
-        </Fallback>
+        </Selector>
     </BehaviorTree>
 
     <!-- TreeNodesModel is used only by the Graphic interface -->
@@ -63,10 +63,10 @@ static const char* xml_text_subtree = R"(
 
   <!-- This tree will include the other one -->
   <BehaviorTree ID="MainTree">
-    <Fallback name="root_selector">
+    <Selector name="root_selector">
       <SubTree ID="CrossDoorSubtree" />
       <Action ID="PassThroughWindow" />
-    </Fallback>
+    </Selector>
   </BehaviorTree>
 
 </root>  )";
@@ -84,7 +84,7 @@ TEST(BehaviorTreeFactory, VerifyLargeTree)
 
     ASSERT_EQ(tree.root_node->name(), "root_selector");
 
-    auto fallback = dynamic_cast<const FallbackNode*>(tree.root_node);
+    auto fallback = dynamic_cast<const SelectorNode*>(tree.root_node);
     ASSERT_TRUE(fallback != nullptr);
 
     ASSERT_EQ(fallback->children().size(), 3);
@@ -125,7 +125,7 @@ TEST(BehaviorTreeFactory, Subtree)
 
     ASSERT_EQ(tree.root_node->name(), "root_selector");
 
-    auto root_selector = dynamic_cast<const FallbackNode*>(tree.root_node);
+    auto root_selector = dynamic_cast<const SelectorNode*>(tree.root_node);
     ASSERT_TRUE(root_selector != nullptr);
     ASSERT_EQ(root_selector->children().size(), 2);
     ASSERT_EQ(root_selector->child(0)->name(), "CrossDoorSubtree");

@@ -9,7 +9,7 @@ static const char* xml_text = R"(
 
 <root main_tree_to_execute="BehaviorTree">
     <BehaviorTree ID="BehaviorTree">
-        <Fallback name="root">
+        <Selector name="root">
 
             <RandomSequence name="navigation_subtree">
                 <Inverter>
@@ -26,7 +26,7 @@ static const char* xml_text = R"(
                 <Action ID="BackUpAndSpin"/>
             </PersistentSequence>
 
-        </Fallback>
+        </Selector>
     </BehaviorTree>
 </root>
  )";

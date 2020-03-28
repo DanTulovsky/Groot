@@ -34,7 +34,7 @@ static const char* xml_text = R"(
     </BehaviorTree>
 
     <BehaviorTree ID="MoveRobot">
-        <Fallback name="move_robot_main">
+        <Selector name="move_robot_main">
             <PersistentSequence>
                 <MoveBase       goal="{target}"/>
                 <SetBlackboard output_key="output" value="mission accomplished" />
@@ -42,7 +42,7 @@ static const char* xml_text = R"(
             <ForceFailure>
                 <SetBlackboard output_key="output" value="mission failed" />
             </ForceFailure>
-        </Fallback>
+        </Selector>
     </BehaviorTree>
 
 </root>

@@ -150,6 +150,7 @@ list(APPEND BT_SOURCE
     src/controls/parallel_node.cpp
     src/controls/reactive_sequence.cpp
     src/controls/active_sequence.cpp
+    src/controls/persistent_random_selector.cpp
     src/controls/reactive_fallback.cpp
     src/controls/sequence_node.cpp
     src/controls/sequence_star_node.cpp

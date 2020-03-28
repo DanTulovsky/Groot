@@ -311,7 +311,7 @@ void VerifyXML(const std::string& xml_text,
         }
         else if (StrEqual(name, "Sequence") ||
                  StrEqual(name, "PersistentSequence") ||
-                 StrEqual(name, "Fallback") )
+                 StrEqual(name, "Selector") )
         {
             if (children_count == 0)
             {

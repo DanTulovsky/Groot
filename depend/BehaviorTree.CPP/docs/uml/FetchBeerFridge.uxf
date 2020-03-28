@@ -158,7 +158,7 @@ fg=#B00000</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Fallback
+    <panel_attributes>Selector
 fg=#B00000</panel_attributes>
     <additional_attributes/>
   </element>
@@ -480,7 +480,7 @@ fg=#009000</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Fallback
+    <panel_attributes>Selector
 fg=#009000</panel_attributes>
     <additional_attributes/>
   </element>

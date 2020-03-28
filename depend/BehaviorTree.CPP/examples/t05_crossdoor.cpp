@@ -10,7 +10,7 @@
 #include "behaviortree_cpp_v3/loggers/bt_zmq_publisher.h"
 #endif
 
-/** This is a more complex example that uses Fallback,
+/** This is a more complex example that uses Selector,
  * Decorators and Subtrees
  *
  * For the sake of simplicity, we aren't focusing on ports remapping to the time being.
@@ -39,14 +39,14 @@ static const char* xml_text = R"(
     <!--------------------------------------->
     <BehaviorTree ID="MainTree">
         <Sequence>
-            <Fallback name="root_Fallback">
+            <Selector name="root_Selector">
                 <Sequence name="door_open_sequence">
                     <IsDoorOpen/>
                     <PassThroughDoor/>
                 </Sequence>
                 <SubTree ID="DoorClosed"/>
                 <PassThroughWindow/>
-            </Fallback>
+            </Selector>
             <CloseDoor/>
         </Sequence>
     </BehaviorTree>

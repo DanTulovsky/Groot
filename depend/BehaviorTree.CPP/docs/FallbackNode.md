@@ -1,4 +1,4 @@
-# Fallback
+# Selector
 
 This family of nodes are known as "Selector" or "Priority"
 in other frameworks.
@@ -17,21 +17,21 @@ They share the following rules:
 - If a child returns __SUCCESS__, it stops and returns __SUCCESS__.
   All the children are halted. 
 
-The two versions of Fallback differ in the way they react when a child returns
+The two versions of Selector differ in the way they react when a child returns
 RUNNING:
 
-- FallbackStar will return RUNNING and the next time it is ticked,
+- SelectorStar will return RUNNING and the next time it is ticked,
  it will tick the same child where it left off before.
  
-- Plain old Fallback will return RUNNING and the index of the next child to
+- Plain old Selector will return RUNNING and the index of the next child to
  execute is reset after each execution.
 
-## Fallback
+## Selector
 
 In this example, we try different strategies to open the door. 
 Check first (and once) if the door is open.
 
-![FallbackNode](images/FallbackSimplified.png)
+![SelectorNode](images/SelectorSimplified.png)
 
 ??? example "See the pseudocode"
 	``` c++

@@ -1,5 +1,4 @@
-/* Copyright (C) 2015-2018 Michele Colledanchise -  All Rights Reserved
- * Copyright (C) 2018-2019 Davide Faconti, Eurecat -  All Rights Reserved
+/* Copyright (C) 2019 Davide Faconti, Eurecat -  All Rights Reserved
 *
 *   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 *   to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
@@ -11,40 +10,31 @@
 *   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#ifndef FALLBACKNODE_H
-#define FALLBACKNODE_H
+#ifndef PERSISTENT_RANDOM_SELECTOR_NODE_H
+#define PERSISTENT_RANDOM_SELECTOR_NODE_H
 
 #include "behaviortree_cpp_v3/control_node.h"
 
 namespace BT
 {
 /**
- * @brief The SelectorNode is used to try different strategies,
- * until one succeeds.
- * If any child returns RUNNING, previous children will NOT be ticked again.
+ * @brief The PersistentRandomSelector is similar to a RandomSelector.
+ * Picks a random Node and runs it until it returns Success
  *
- * - If all the children return FAILURE, this node returns FAILURE.
- *
- * - If a child returns RUNNING, this node returns RUNNING.
- *
- * - If a child returns SUCCESS, stop the loop and return SUCCESS.
+ * IMPORTANT: to work properly, this node should not have more than a single
+ *            asynchronous child.
  *
  */
-class SelectorNode : public ControlNode
+class PersistentRandomSelectorNode : public ControlNode
 {
   public:
-    SelectorNode(const std::string& name);
-
-    virtual ~SelectorNode() override = default;
-
-    virtual void halt() override;
+    PersistentRandomSelectorNode(const std::string& name) : ControlNode(name, {})
+    {
+    }
 
   private:
-    size_t current_child_idx_;
-
     virtual BT::NodeStatus tick() override;
 };
 
-}
-
-#endif
+}   // namespace BT
+#endif   // PERSISTENT_RANDOM_SELECTOR_NODE_H
