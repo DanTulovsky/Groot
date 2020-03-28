@@ -163,17 +163,17 @@ test/clean: test/CMakeFiles/editor_test_autogen.dir/clean
 # Target rules for target CMakeFiles/behavior_tree_editor.dir
 
 # All Build rule for target.
+CMakeFiles/behavior_tree_editor.dir/all: CMakeFiles/behavior_tree_editor_autogen.dir/all
 CMakeFiles/behavior_tree_editor.dir/all: QtNodeEditor/CMakeFiles/QtNodeEditor.dir/all
 CMakeFiles/behavior_tree_editor.dir/all: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/all
-CMakeFiles/behavior_tree_editor.dir/all: CMakeFiles/behavior_tree_editor_autogen.dir/all
 	$(MAKE) -f CMakeFiles/behavior_tree_editor.dir/build.make CMakeFiles/behavior_tree_editor.dir/depend
 	$(MAKE) -f CMakeFiles/behavior_tree_editor.dir/build.make CMakeFiles/behavior_tree_editor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target behavior_tree_editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target behavior_tree_editor"
 .PHONY : CMakeFiles/behavior_tree_editor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/behavior_tree_editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 80
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/behavior_tree_editor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : CMakeFiles/behavior_tree_editor.dir/rule
@@ -192,10 +192,10 @@ CMakeFiles/behavior_tree_editor.dir/clean:
 # Target rules for target CMakeFiles/Groot.dir
 
 # All Build rule for target.
+CMakeFiles/Groot.dir/all: CMakeFiles/Groot_autogen.dir/all
 CMakeFiles/Groot.dir/all: CMakeFiles/behavior_tree_editor.dir/all
 CMakeFiles/Groot.dir/all: QtNodeEditor/CMakeFiles/QtNodeEditor.dir/all
 CMakeFiles/Groot.dir/all: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/all
-CMakeFiles/Groot.dir/all: CMakeFiles/Groot_autogen.dir/all
 	$(MAKE) -f CMakeFiles/Groot.dir/build.make CMakeFiles/Groot.dir/depend
 	$(MAKE) -f CMakeFiles/Groot.dir/build.make CMakeFiles/Groot.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Groot"
@@ -203,7 +203,7 @@ CMakeFiles/Groot.dir/all: CMakeFiles/Groot_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Groot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 84
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 85
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Groot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : CMakeFiles/Groot.dir/rule
@@ -226,12 +226,12 @@ CMakeFiles/behavior_tree_editor_autogen.dir/all: QtNodeEditor/CMakeFiles/QtNodeE
 CMakeFiles/behavior_tree_editor_autogen.dir/all: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/all
 	$(MAKE) -f CMakeFiles/behavior_tree_editor_autogen.dir/build.make CMakeFiles/behavior_tree_editor_autogen.dir/depend
 	$(MAKE) -f CMakeFiles/behavior_tree_editor_autogen.dir/build.make CMakeFiles/behavior_tree_editor_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num= "Built target behavior_tree_editor_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=65 "Built target behavior_tree_editor_autogen"
 .PHONY : CMakeFiles/behavior_tree_editor_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/behavior_tree_editor_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 67
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/behavior_tree_editor_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : CMakeFiles/behavior_tree_editor_autogen.dir/rule
@@ -258,7 +258,7 @@ CMakeFiles/Groot_autogen.dir/all: CMakeFiles/behavior_tree_editor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Groot_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 80
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Groot_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : CMakeFiles/Groot_autogen.dir/rule
@@ -285,7 +285,7 @@ QtNodeEditor/CMakeFiles/QtNodeEditor.dir/all: QtNodeEditor/CMakeFiles/QtNodeEdit
 
 # Build rule for subdir invocation for target.
 QtNodeEditor/CMakeFiles/QtNodeEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 QtNodeEditor/CMakeFiles/QtNodeEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : QtNodeEditor/CMakeFiles/QtNodeEditor.dir/rule
@@ -307,12 +307,12 @@ QtNodeEditor/CMakeFiles/QtNodeEditor.dir/clean:
 QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/all:
 	$(MAKE) -f QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/build.make QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/depend
 	$(MAKE) -f QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/build.make QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=52 "Built target QtNodeEditor_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num= "Built target QtNodeEditor_autogen"
 .PHONY : QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : QtNodeEditor/CMakeFiles/QtNodeEditor_autogen.dir/rule
@@ -339,7 +339,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/all: depend/BehaviorT
 
 # Build rule for subdir invocation for target.
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/rule
@@ -361,12 +361,12 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/clean:
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/all:
 	$(MAKE) -f depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/build.make depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/depend
 	$(MAKE) -f depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/build.make depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num= "Built target behaviortree_cpp_v3_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=85 "Built target behaviortree_cpp_v3_autogen"
 .PHONY : depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/rule
@@ -396,7 +396,7 @@ test/CMakeFiles/replay_test.dir/all: test/CMakeFiles/replay_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/replay_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 87
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 88
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/replay_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/replay_test.dir/rule
@@ -421,7 +421,7 @@ test/CMakeFiles/editor_test.dir/all: depend/BehaviorTree.CPP/CMakeFiles/behavior
 test/CMakeFiles/editor_test.dir/all: test/CMakeFiles/editor_test_autogen.dir/all
 	$(MAKE) -f test/CMakeFiles/editor_test.dir/build.make test/CMakeFiles/editor_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/editor_test.dir/build.make test/CMakeFiles/editor_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=85,86,87,88,89,90,91 "Built target editor_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=86,87,88,89,90,91 "Built target editor_test"
 .PHONY : test/CMakeFiles/editor_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -453,7 +453,7 @@ test/CMakeFiles/replay_test_autogen.dir/all: CMakeFiles/behavior_tree_editor.dir
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/replay_test_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 81
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/replay_test_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/replay_test_autogen.dir/rule
@@ -480,7 +480,7 @@ test/CMakeFiles/editor_test_autogen.dir/all: CMakeFiles/behavior_tree_editor.dir
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/editor_test_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 81
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/editor_test_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/editor_test_autogen.dir/rule

@@ -50,6 +50,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/behavior_tree.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -107,6 +108,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o:
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/bt_factory.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -229,6 +231,24 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/strcat.hpp
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/string_view.hpp
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.o: ../depend/BehaviorTree.CPP/src/controls/parallel_node.cpp
+
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/basic_types.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/blackboard.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/control_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/exceptions.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/tree_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/any.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/convert_impl.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/demangle_util.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/expected.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/make_unique.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/safe_any.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/signal.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/simple_string.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/strcat.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/utils/string_view.hpp
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/src/controls/persistent_random_selector.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/basic_types.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/blackboard.h
@@ -427,6 +447,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_l
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -472,6 +493,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_l
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -521,6 +543,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitr
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -566,6 +589,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_pu
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_zmq_publisher.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -652,6 +676,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/xml_parsing.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h

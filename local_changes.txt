@@ -1,8 +1,10 @@
 # ReactiveSequence -> RandomSequence
 # PersistentSequence -> PersistentSequence
 # RandomSelector -> RandomSelector
+# Selector -> Selector
 
 for f in $(grep -R ReactiveSequence * |cut -d ':' -f 1 |grep -v Binary); do echo $f; sed -i -e 's/ReactiveSequence/RandomSequence/g' $f; done
 for f in $(grep -R PersistentSequence * |cut -d ':' -f 1 |grep -v Binary); do echo $f; sed -i -e 's/PersistentSequence/PersistentSequence/g' $f; done
 for f in $(grep -R RandomSelector * |cut -d ':' -f 1 |grep -v Binary); do echo $f; sed -i -e 's/RandomSelector/RandomSelector/g' $f; done
+for f in $(grep -R Selector * |cut -d ':' -f 1 |grep -v Binary); do echo $f; sed -i -e 's/Selector/Selector/g' $f; done
 

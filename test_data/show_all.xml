@@ -2,13 +2,13 @@
     <!-- ////////// -->
     <BehaviorTree ID="BehaviorTree">
         <Sequence>
-            <Fallback>
+            <Selector>
                 <RandomSelector>
                     <Repeat num_cycles="1">
                         <AlwaysFailure/>
                     </Repeat>
                 </RandomSelector>
-            </Fallback>
+            </Selector>
             <PersistentSequence name="DoPersistentSequence">
                 <RetryUntilSuccesful num_attempts="1">
                     <BlackboardCheckString value_A="" return_on_mismatch="" value_B="">

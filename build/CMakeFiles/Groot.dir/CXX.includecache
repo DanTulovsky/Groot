@@ -441,6 +441,8 @@ behaviortree_cpp_v3/controls/reactive_fallback.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/reactive_fallback.h
 behaviortree_cpp_v3/controls/fallback_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/fallback_node.h
+behaviortree_cpp_v3/controls/persistent_random_selector.h
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/persistent_random_selector.h
 behaviortree_cpp_v3/controls/sequence_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/sequence_node.h
 behaviortree_cpp_v3/controls/sequence_star_node.h
@@ -533,6 +535,10 @@ behaviortree_cpp_v3/control_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
 set
 -
+behaviortree_cpp_v3/control_node.h
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/behaviortree_cpp_v3/control_node.h
+
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 behaviortree_cpp_v3/control_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/behaviortree_cpp_v3/control_node.h
 
@@ -1043,14 +1049,6 @@ QTime
 -
 bt_editor_base.h
 /Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/bt_editor_base.h
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/NYYW7IJ2JN/qrc_test_files.cpp
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/OQ4J2MLGYJ/qrc_icons.cpp
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/OQ4J2MLGYJ/qrc_style.cpp
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/mocs_compilation.cpp
 
 /usr/local/Cellar/zeromq/4.3.2/include/zmq.h
 errno.h

@@ -591,6 +591,8 @@ behaviortree_cpp_v3/controls/reactive_fallback.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/reactive_fallback.h
 behaviortree_cpp_v3/controls/fallback_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/fallback_node.h
+behaviortree_cpp_v3/controls/persistent_random_selector.h
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/persistent_random_selector.h
 behaviortree_cpp_v3/controls/sequence_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/sequence_node.h
 behaviortree_cpp_v3/controls/sequence_star_node.h
@@ -689,6 +691,10 @@ behaviortree_cpp_v3/control_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
 set
 -
+behaviortree_cpp_v3/control_node.h
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/behaviortree_cpp_v3/control_node.h
+
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 behaviortree_cpp_v3/control_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/behaviortree_cpp_v3/control_node.h
 

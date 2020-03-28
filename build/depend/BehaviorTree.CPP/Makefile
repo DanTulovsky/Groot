@@ -510,6 +510,33 @@ src/controls/parallel_node.cpp.s:
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build && $(MAKE) -f depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/build.make depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.s
 .PHONY : src/controls/parallel_node.cpp.s
 
+src/controls/persistent_random_selector.o: src/controls/persistent_random_selector.cpp.o
+
+.PHONY : src/controls/persistent_random_selector.o
+
+# target to build an object file
+src/controls/persistent_random_selector.cpp.o:
+	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build && $(MAKE) -f depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/build.make depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o
+.PHONY : src/controls/persistent_random_selector.cpp.o
+
+src/controls/persistent_random_selector.i: src/controls/persistent_random_selector.cpp.i
+
+.PHONY : src/controls/persistent_random_selector.i
+
+# target to preprocess a source file
+src/controls/persistent_random_selector.cpp.i:
+	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build && $(MAKE) -f depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/build.make depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.i
+.PHONY : src/controls/persistent_random_selector.cpp.i
+
+src/controls/persistent_random_selector.s: src/controls/persistent_random_selector.cpp.s
+
+.PHONY : src/controls/persistent_random_selector.s
+
+# target to generate assembly for a file
+src/controls/persistent_random_selector.cpp.s:
+	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build && $(MAKE) -f depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/build.make depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.s
+.PHONY : src/controls/persistent_random_selector.cpp.s
+
 src/controls/reactive_fallback.o: src/controls/reactive_fallback.cpp.o
 
 .PHONY : src/controls/reactive_fallback.o
@@ -1073,6 +1100,9 @@ help:
 	@echo "... src/controls/parallel_node.o"
 	@echo "... src/controls/parallel_node.i"
 	@echo "... src/controls/parallel_node.s"
+	@echo "... src/controls/persistent_random_selector.o"
+	@echo "... src/controls/persistent_random_selector.i"
+	@echo "... src/controls/persistent_random_selector.s"
 	@echo "... src/controls/reactive_fallback.o"
 	@echo "... src/controls/reactive_fallback.i"
 	@echo "... src/controls/reactive_fallback.s"

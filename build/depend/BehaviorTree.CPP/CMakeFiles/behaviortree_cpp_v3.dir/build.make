@@ -343,9 +343,22 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/active_s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/behaviortree_cpp_v3.dir/src/controls/active_sequence.cpp.s"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/active_sequence.cpp -o CMakeFiles/behaviortree_cpp_v3.dir/src/controls/active_sequence.cpp.s
 
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o: ../depend/BehaviorTree.CPP/src/controls/persistent_random_selector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o"
+	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/persistent_random_selector.cpp
+
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.i"
+	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/persistent_random_selector.cpp > CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.i
+
+depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.s"
+	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/persistent_random_selector.cpp -o CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.s
+
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o: ../depend/BehaviorTree.CPP/src/controls/reactive_fallback.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/reactive_fallback.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.i: cmake_force
@@ -358,7 +371,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o: ../depend/BehaviorTree.CPP/src/controls/sequence_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/sequence_node.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.i: cmake_force
@@ -371,7 +384,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o: ../depend/BehaviorTree.CPP/src/controls/sequence_star_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/sequence_star_node.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.i: cmake_force
@@ -384,7 +397,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o: ../depend/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_logger.cpp.i: cmake_force
@@ -397,7 +410,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_cout_l
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o: ../depend/BehaviorTree.CPP/src/loggers/bt_file_logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_file_logger.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_logger.cpp.i: cmake_force
@@ -410,7 +423,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_file_l
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o: ../depend/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitrace_logger.cpp.i: cmake_force
@@ -423,7 +436,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/loggers/bt_minitr
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.cpp.o: ../depend/BehaviorTree.CPP/src/private/tinyxml2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/private/tinyxml2.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.cpp.i: cmake_force
@@ -436,7 +449,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/private/tinyxml2.
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/minitrace.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/minitrace.cpp.o: ../depend/BehaviorTree.CPP/3rdparty/minitrace/minitrace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/minitrace.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/minitrace.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/minitrace.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/3rdparty/minitrace/minitrace.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/minitrace.cpp.i: cmake_force
@@ -449,7 +462,7 @@ depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/3rdparty/minitrace/mi
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.o: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/flags.make
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.o: ../depend/BehaviorTree.CPP/src/shared_library_UNIX.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.o"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.o -c /Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/shared_library_UNIX.cpp
 
 depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.i: cmake_force
@@ -484,6 +497,7 @@ behaviortree_cpp_v3_OBJECTS = \
 "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.o" \
 "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_sequence.cpp.o" \
 "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/active_sequence.cpp.o" \
+"CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o" \
 "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o" \
 "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o" \
 "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o" \
@@ -519,6 +533,7 @@ lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortre
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.o
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_sequence.cpp.o
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/active_sequence.cpp.o
+lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_star_node.cpp.o
@@ -530,7 +545,7 @@ lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortre
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/src/shared_library_UNIX.cpp.o
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/build.make
 lib/libbehaviortree_cpp_v3.dylib: depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library ../../lib/libbehaviortree_cpp_v3.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX shared library ../../lib/libbehaviortree_cpp_v3.dylib"
 	cd /Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/behaviortree_cpp_v3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

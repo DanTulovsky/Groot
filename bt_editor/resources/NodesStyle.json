@@ -73,7 +73,7 @@
         "caption_color":  "#ff77aa"
     },
 
-    "Fallback": {
+    "Selector": {
         "icon": ":/icons/svg/fallback.svg",
         "caption_color":  "#77ccff"
     },

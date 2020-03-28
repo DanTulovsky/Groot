@@ -11,7 +11,7 @@
     </BehaviorTree>
     <!-- ////////// -->
     <BehaviorTree ID="ExecutePath">
-        <Fallback>
+        <Selector>
             <Sequence>
                 <Condition ID="OnAir"/>
                 <Action ID="Fly" path="{path}"/>
@@ -24,14 +24,14 @@
                 <Condition ID="OnWater"/>
                 <Action ID="Swim" path="{path}"/>
             </Sequence>
-        </Fallback>
+        </Selector>
     </BehaviorTree>
     <!-- ////////// -->
     <BehaviorTree ID="RunPlannerSubtree">
-        <Fallback>
+        <Selector>
             <Action ID="RunPlannerA" constraint_a="{constraint_a}" constraint_b="{constraint_b}" contratint_c="{constraint_c}" path="{path}" target_pose="{target_pose}"/>
             <Action ID="RunPlannerB" constraint_a="{constraint_a}" constraint_b="{constraint_b}" constraint_c="{constraint_c}" path="{path}" target_pose="{target_pose}"/>
-        </Fallback>
+        </Selector>
     </BehaviorTree>
     <!-- ////////// -->
     <TreeNodesModel>

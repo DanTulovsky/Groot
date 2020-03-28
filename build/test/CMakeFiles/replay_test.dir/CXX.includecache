@@ -573,6 +573,8 @@ behaviortree_cpp_v3/controls/reactive_fallback.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/reactive_fallback.h
 behaviortree_cpp_v3/controls/fallback_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/fallback_node.h
+behaviortree_cpp_v3/controls/persistent_random_selector.h
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/persistent_random_selector.h
 behaviortree_cpp_v3/controls/sequence_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/behaviortree_cpp_v3/controls/sequence_node.h
 behaviortree_cpp_v3/controls/sequence_star_node.h
@@ -665,6 +667,10 @@ behaviortree_cpp_v3/control_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
 set
 -
+behaviortree_cpp_v3/control_node.h
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/behaviortree_cpp_v3/control_node.h
+
+../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 behaviortree_cpp_v3/control_node.h
 ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/behaviortree_cpp_v3/control_node.h
 
@@ -984,10 +990,6 @@ bt_editor/utils.h
 bt_editor/models/SubtreeNodeModel.hpp
 ../test/bt_editor/models/SubtreeNodeModel.hpp
 
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/test/replay_test_autogen/4L4FNCFPKD/qrc_test_files.cpp
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/test/replay_test_autogen/EB4OVBCXLB/qrc_resources.cpp
-
 /Users/dant/go/src/github.com/DanTulovsky/Groot/build/test/replay_test_autogen/EWIEGA46WW/moc_groot_test_base.cpp
 memory
 -
@@ -997,10 +999,6 @@ QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/test/replay_test_autogen/K3L5NHU5SO/qrc_icons.cpp
-
-/Users/dant/go/src/github.com/DanTulovsky/Groot/build/test/replay_test_autogen/K3L5NHU5SO/qrc_style.cpp
 
 /Users/dant/go/src/github.com/DanTulovsky/Groot/build/test/replay_test_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_groot_test_base.cpp

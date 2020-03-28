@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/active_sequence.cpp.o"
   "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/fallback_node.cpp.o"
   "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/parallel_node.cpp.o"
+  "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/persistent_random_selector.cpp.o"
   "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_fallback.cpp.o"
   "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/reactive_sequence.cpp.o"
   "CMakeFiles/behaviortree_cpp_v3.dir/src/controls/sequence_node.cpp.o"

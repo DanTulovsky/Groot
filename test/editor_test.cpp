@@ -387,7 +387,7 @@ void EditorTest::testSubtree()
     sleepAndRefresh( 500 );
 
     auto tree_after_remove = getAbstractTree("MainTree");
-    auto fallback_node = tree_after_remove.findFirstNode("root_Fallback");
+    auto fallback_node = tree_after_remove.findFirstNode("root_Selector");
 
     QCOMPARE(fallback_node->children_index.size(), size_t(3) );
     QVERIFY2( main_win->getTabByName("DoorClosed") == nullptr, "Tab DoorClosed not deleted");

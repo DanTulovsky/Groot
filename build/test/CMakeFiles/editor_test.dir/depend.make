@@ -59,6 +59,7 @@ test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/in
 test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 test/CMakeFiles/editor_test.dir/editor_test.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -219,6 +220,7 @@ test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../d
 test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -369,6 +371,7 @@ test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CP
 test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h

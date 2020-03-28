@@ -61,6 +61,7 @@ CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilatio
 CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -205,6 +206,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/Beh
 CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -308,6 +310,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/Be
 CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -379,6 +382,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depen
 CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -479,6 +483,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/
 CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -605,6 +610,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend
 CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -754,6 +760,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/Behavi
 CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -921,6 +928,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -1039,6 +1047,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -1148,6 +1157,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -1274,6 +1284,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -1380,6 +1391,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -1487,6 +1499,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/Be
 CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h
@@ -1586,6 +1599,7 @@ CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTre
 CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/active_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/fallback_node.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/parallel_node.h
+CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/persistent_random_selector.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_fallback.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/reactive_sequence.h
 CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o: ../depend/BehaviorTree.CPP/include/behaviortree_cpp_v3/controls/sequence_node.h

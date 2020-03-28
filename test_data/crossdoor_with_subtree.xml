@@ -15,14 +15,14 @@
     </BehaviorTree>
     <!-- ////////// -->
     <BehaviorTree ID="MainTree">
-        <Fallback name="root_Fallback">
+        <Selector name="root_Selector">
             <Sequence name="door_open_sequence">
                 <Condition ID="IsDoorOpen"/>
                 <Action ID="PassThroughDoor"/>
             </Sequence>
             <SubTree ID="DoorClosed"/>
             <Action ID="PassThroughWindow"/>
-        </Fallback>
+        </Selector>
     </BehaviorTree>
     <!-- ////////// -->
     <TreeNodesModel>
