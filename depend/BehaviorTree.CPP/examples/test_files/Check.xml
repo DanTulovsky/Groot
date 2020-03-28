@@ -1,0 +1,10 @@
+<root>
+
+    <BehaviorTree ID="CheckStatus">
+        <PersistentSequence>
+            <Action ID="CheckBattery"/>
+            <Action ID="CheckTemperature"/>
+        </PersistentSequence>
+    </BehaviorTree>
+    
+</root>
