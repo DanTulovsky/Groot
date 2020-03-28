@@ -7,6 +7,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}  "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 if(NOT CMAKE_VERSION VERSION_LESS 3.1)
     set(CMAKE_CXX_STANDARD 11)
+    link_directories("/usr/local/lib")
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
 else()
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
@@ -27,10 +28,10 @@ if(catkin_FOUND)
   message(STATUS "------------------------------------------------")
 
   catkin_package(
-    INCLUDE_DIRS 
+    INCLUDE_DIRS
     LIBRARIES qt_node_editor
     CATKIN_DEPENDS behaviortree_cpp_v3
-    DEPENDS 
+    DEPENDS
     )
 endif(catkin_FOUND)
 #############################################################
@@ -152,13 +153,13 @@ else()
     set( GROOT_LIB_DESTINATION   lib )
     set( GROOT_INC_DESTINATION   include )
     set( GROOT_BIN_DESTINATION   bin )
-    
+
     INSTALL( FILES ${CMAKE_CURRENT_SOURCE_DIR}/groot_icon.png
 			 DESTINATION share/icons/hicolor/256x256)
-			 
+
 	INSTALL( FILES ${CMAKE_CURRENT_SOURCE_DIR}/Groot.desktop
 			 DESTINATION share/applications)
-    
+
 endif()
 
 INSTALL(TARGETS Groot RUNTIME DESTINATION ${GROOT_BIN_DESTINATION} )

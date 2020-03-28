@@ -1,9 +1,9 @@
 <root main_tree_to_execute="BehaviorTree">
 
     <BehaviorTree ID="BehaviorTree">
-        <SequenceStar>
+        <PersistentSequence>
             <Action ID="moverobot" location="1"/>
-        </SequenceStar>
+        </PersistentSequence>
     </BehaviorTree>
 
 </root>

@@ -3,19 +3,19 @@
     <BehaviorTree ID="BehaviorTree">
         <Sequence>
             <Fallback>
-                <ReactiveFallback>
+                <RandomSelector>
                     <Repeat num_cycles="1">
                         <AlwaysFailure/>
                     </Repeat>
-                </ReactiveFallback>
+                </RandomSelector>
             </Fallback>
-            <SequenceStar name="DoSequenceStar">
+            <PersistentSequence name="DoPersistentSequence">
                 <RetryUntilSuccesful num_attempts="1">
                     <BlackboardCheckString value_A="" return_on_mismatch="" value_B="">
                         <AlwaysSuccess/>
                     </BlackboardCheckString>
                 </RetryUntilSuccesful>
-            </SequenceStar>
+            </PersistentSequence>
             <Inverter>
                 <ForceFailure>
                     <ForceSuccess>

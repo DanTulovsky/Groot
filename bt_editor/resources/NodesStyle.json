@@ -63,7 +63,7 @@
         "caption_color":  "#ff99bb"
     },
 
-    "SequenceStar": {
+    "PersistentSequence": {
         "icon": ":/icons/svg/sequence_star.svg",
         "caption_color":  "#ffaacc"
     },
@@ -78,7 +78,7 @@
         "caption_color":  "#77ccff"
     },
 
-    "ReactiveFallback": {
+    "RandomSelector": {
         "icon": ":/icons/svg/fallback_reactive.svg",
         "caption_color":  "#44aadd"
     }

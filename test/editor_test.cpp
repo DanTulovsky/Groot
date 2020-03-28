@@ -295,7 +295,7 @@ void EditorTest::undoRedo()
         auto prev_tree = getAbstractTree();
         size_t prev_node_count = prev_tree.nodesCount();
 
-        auto node = prev_tree.findFirstNode( "DoSequenceStar" );
+        auto node = prev_tree.findFirstNode( "DoPersistentSequence" );
 
         QPoint pos = view->mapFromScene(node->pos);
         testMouseEvent(view, QEvent::MouseButtonDblClick, pos , Qt::LeftButton);
@@ -582,7 +582,7 @@ void EditorTest::clearModels()
    // auto view = container->view();
 
     auto abs_tree = getAbstractTree();
-    auto node = abs_tree.findFirstNode( "DoSequenceStar" );
+    auto node = abs_tree.findFirstNode( "DoPersistentSequence" );
 
     QTimer::singleShot(300, [&]()
     {
