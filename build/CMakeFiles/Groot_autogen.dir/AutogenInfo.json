@@ -1,0 +1,99 @@
+{
+	"BUILD_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot",
+	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.16.5/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"NODE_EDITOR_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"ZMQ_FOUND"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/build",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/QtNodeEditor/include",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/include",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/QtNodeEditor/include",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/3rdparty",
+		"/usr/local/opt/qt/lib/QtCore.framework",
+		"/usr/local/opt/qt/lib/QtCore.framework/Headers",
+		"/usr/local/opt/qt/mkspecs/macx-clang",
+		"/usr/local/opt/qt/lib/QtWidgets.framework",
+		"/usr/local/opt/qt/lib/QtWidgets.framework/Headers",
+		"/usr/local/opt/qt/lib/QtGui.framework",
+		"/usr/local/opt/qt/lib/QtGui.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/usr/local/opt/qt/lib/QtSvg.framework",
+		"/usr/local/opt/qt/lib/QtSvg.framework/Headers",
+		"/usr/local/opt/qt/lib/QtXml.framework",
+		"/usr/local/opt/qt/lib/QtXml.framework/Headers",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/Cellar/cmake/3.16.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/Groot_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles/Groot_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/local/opt/qt/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/local/opt/qt/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/CMakeFiles/Groot_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/main.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/about_dialog.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/action_form.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/custom_node_dialog.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/mainwindow.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/sidepanel_editor.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/sidepanel_monitor.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/sidepanel_replay.ui",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/bt_editor/startup_dialog.ui"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

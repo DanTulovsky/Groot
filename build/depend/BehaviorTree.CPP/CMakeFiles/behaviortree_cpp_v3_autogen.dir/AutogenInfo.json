@@ -1,0 +1,202 @@
+{
+	"BUILD_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP",
+	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.16.5/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot",
+	"HEADERS" : 
+	[
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/3rdparty/minitrace/minitrace.h",
+			"MU",
+			"6I5HOQGZ3K/moc_minitrace.cpp"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/private/tinyxml2.h",
+			"MU",
+			"TK2TWBEGLC/moc_tinyxml2.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"NODE_EDITOR_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"ZMQ_FOUND",
+		"behaviortree_cpp_v3_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/QtNodeEditor/include",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/include",
+		"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/3rdparty",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/Cellar/cmake/3.16.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/local/opt/qt/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/local/opt/qt/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/Users/dant/go/src/github.com/DanTulovsky/Groot/build/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/3rdparty/minitrace/minitrace.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/action_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/basic_types.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/behavior_tree.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/blackboard.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/bt_factory.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/condition_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/control_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/active_sequence.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/fallback_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/parallel_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/reactive_fallback.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/reactive_sequence.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/sequence_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/controls/sequence_star_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/decorator_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/decorators/inverter_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/decorators/repeat_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/decorators/retry_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/decorators/subtree_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/decorators/timeout_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_file_logger.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/loggers/bt_zmq_publisher.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/private/tinyxml2.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/shared_library.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/shared_library_UNIX.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/tree_node.cpp",
+			"MU"
+		],
+		[
+			"/Users/dant/go/src/github.com/DanTulovsky/Groot/depend/BehaviorTree.CPP/src/xml_parsing.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
